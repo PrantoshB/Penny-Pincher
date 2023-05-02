@@ -8,5 +8,4 @@ class Category < ApplicationRecord
   def total_transaction_amount
     payments.sum(:amount)
   end
-
 end

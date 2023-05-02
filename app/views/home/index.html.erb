@@ -1,5 +1,8 @@
 <div class="login-container">
-    <%= button_to "Sign_out", destroy_user_session_path, :method => 'delete', data:{turbo: "false"} %>
+<%#= button_to "Sign_out", destroy_user_session_path, :method => 'delete', data:{turbo: "false"} %> 
+<h1>PennyPincher</h1>
 
-Hello
+<%= link_to "Log In" , new_user_session_path, class: "btn btn-primary" %>
+<%= link_to "Sign Up" , new_user_registration_path, class: "btn btn-primary" %>
+
 </div>

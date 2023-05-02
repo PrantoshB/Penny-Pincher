@@ -1,7 +1,7 @@
-.single-payment{
-    display: flex;
-    justify-content: space-between;
-    padding: 2%;
-    margin: 2%;
-    background: white;
+.single-payment {
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+  margin: 2%;
+  background: white;
 }

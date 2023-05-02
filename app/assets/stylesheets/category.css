@@ -1,0 +1,38 @@
+.category-icon{
+    width: 50px;
+    height: 50px;
+}
+
+.single-category{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 2rem;
+    padding: 2%;
+    margin: 2%;
+    background: white;
+}
+
+.green-btn{
+    color: white;
+    background: var(--color-green);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 6% 0;
+    text-align: center;
+}
+
+.green-btn a{
+    border: 1px solid white;
+    padding: 3% 20%;
+}
+
+.category-name{
+    width: 60%;
+    text-align: left;
+}
+
+.category-total{
+    width: 20%;
+    text-align: left;
+}

@@ -1,0 +1,32 @@
+.splash-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+
+}
+
+.splash-logo{
+    font-family: 'Lobster', cursive;
+    font-size: 2.75rem;
+    margin-bottom: 4rem;
+}
+
+form .login-btn{
+    width: 90vw;
+    height: 3rem;
+    color: white;
+    font-size: 1.1rem;
+    background: var(--color-primary);
+    border: none;
+}
+
+.splash-btns{
+    position: absolute;
+    bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+}

@@ -8,6 +8,7 @@
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -44,6 +45,10 @@ Penny-Pincher is a website that allows users to manage personal finances. Featur
     <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
   </ul>
 </details>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo](https://penny-pincher-tfv3.onrender.com/)
 
 ### Key Features <a name="key-features"></a>
 
@@ -132,7 +137,10 @@ If you like this project, please leave a start to support
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse for this great learning experience !
+I would like to thank:
+- Microverse for this great learning experience !
+- [Gregoire Vella on Behance](https://www.behance.net/gregoirevella) for the [Original Design](https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding?tracking_source=)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

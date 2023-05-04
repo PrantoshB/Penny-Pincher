@@ -1,0 +1,16 @@
+<%= form_with(model: category) do |form| %>
+<div class="header reg-head">
+<a href="<%= categories_path %>">
+  <i class="fa-solid fa-arrow-left"></i>
+  </a>
+  <p>NEW CATEGORY</p>
+    <%= form.submit "Create", class: "reg-next" %>
+</div>
+<div class="form-container">
+
+    <%= form.text_field :name, placeholder: "Name" %>
+
+    <%= form.text_field :icon, placeholder: "Icon Link" %>
+
+  </div>
+<% end %>

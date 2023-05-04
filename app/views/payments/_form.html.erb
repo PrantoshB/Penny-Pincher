@@ -1,0 +1,17 @@
+
+<%= form_with(model: payment, url: category_payments_path) do |form| %>
+<div class="header reg-head">
+<a href="<%= category_payments_path %>">
+  <i class="fa-solid fa-arrow-left"></i>
+  </a>
+  <p>NEW TRANSACTION</p>
+    <%= form.submit "Create", class: "reg-next" %>
+</div>
+<div class="form-container">
+
+    <%= form.text_field :name, placeholder: "Name" %>
+
+    <%= form.text_field :amount, placeholder: "Amount" %>
+
+  </div>
+<% end %>

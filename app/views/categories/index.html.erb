@@ -1,0 +1,34 @@
+<div class="header reg-head">
+<i class="fa-solid fa-bars"></i>
+  <p>CATEGORIES</p>
+  <a href="/logout" data-method="delete">
+ <i class="fa-solid fa-arrow-right-from-bracket"></i>
+  </a>
+</div>
+
+
+<div id="categories-container">
+
+<% if @categories.empty? %>
+      <div class="empty-message">You have not added any Category. Add one by clicking the button below.</div>
+    <% else %> <% @categories.each do |category| %>
+
+  <a href="<%= category_payments_path(category.id) %>">
+
+    <div class="single-category">
+      <img src="<%= category.icon %>" alt="icon" class="category-icon">
+      <p class="category-name"><%= category.name %></p>
+      <p class="category-total"> $ <%= category.total_transaction_amount %> </p>
+    </div>
+    
+  </a>
+
+  <% end %>
+  <% end %>
+
+  <div class="green-btn">
+    <%= link_to "NEW CATEGORY", new_category_path %>
+  </div>
+
+</div>
+

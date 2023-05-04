@@ -1,0 +1,52 @@
+.header {
+  background-color: var(--color-primary);
+  color: var(--color-font-header);
+}
+
+h2 {
+  margin: 0;
+}
+
+.reg-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2%;
+}
+
+.reg-next {
+  background: transparent;
+  color: var(--color-font-header);
+  border: none;
+  font-size: 1rem;
+}
+
+.header i {
+  font-size: 1.5rem;
+}
+
+.header p {
+  font-size: 1.2rem;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.form-container input {
+  width: 95%;
+  padding: 3% 5%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #ccc;
+  font-size: 1.1rem;
+}
+
+.form-container a {
+  margin: 2rem;
+  color: #989da3;
+  font-size: 1rem;
+}
